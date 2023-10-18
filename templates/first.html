@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/c1.css')}}">
+</head>
+<body>
+    <center>
+        <h1>This is our first HTML page rendering By Flask</h1>
+        <h1>{{name}}</h1>
+
+       <h1> <a href="{{url_for('second')}}">Go To Second Html Page</a></h1>
+
+        <img src="{{url_for('static',filename='images/n.jpg')}}" alt="">
+
+
+
+
+
+
+
+
+
+
+
+    </center>
+</body>
+</html>
